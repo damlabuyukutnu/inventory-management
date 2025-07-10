@@ -4,12 +4,12 @@ import Header from "../shared/Header";
 
 export default function Layout() {
     return (
-        <>
+        <div className="layout">
             <Header />
-
-            <Body />
-
+            <main className="content">
+                <Body />
+            </main>
             <Footer />
-        </>
-    )
+        </div>
+    );
 }

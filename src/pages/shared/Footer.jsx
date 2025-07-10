@@ -1,10 +1,9 @@
 export default function Footer() {
-    return(
-        <>
-        <div className="footer">
-            
-        </div>
-        
-        </>
+    return (
+        <footer>
+            <div className="footer">
+                <p><span>© 2025 | Tüm hakları saklıdır.</span></p>
+            </div>
+        </footer>
     )
 }
