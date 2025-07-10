@@ -1,17 +1,12 @@
 import './App.css'
+import Layout from './pages/Layout/Layout'
 
 export default function App() {
 
 
   return (
     <>
-      <HelloWorld />
+      <Layout />
     </>
-  )
-}
-
-function HelloWorld() {
-  return(
-    <h1>hello</h1>
   )
 }
